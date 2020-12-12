@@ -70,5 +70,12 @@ public class userServiceController implements userService {
     }
 
 
+    public void printSomeThing(){
+
+        System.out.println("obada");
+
+    }
+
+
 
 }
