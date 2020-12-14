@@ -44,9 +44,4 @@ public class StandardResponse {
     public void setData(JsonElement data) {
         this.data = data;
     }
-
-
-
-
-
 }

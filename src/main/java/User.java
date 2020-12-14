@@ -1,14 +1,13 @@
 public class User {
-    private String id;
+    private int id;
     private String firstName;
     private String lastName;
     private String email;
-
-    public String getId() {
+     public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -38,7 +37,7 @@ public class User {
 
 
 
-    public User(String id, String firstName, String lastName, String email) {
+    public User(int id, String firstName, String lastName, String email) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

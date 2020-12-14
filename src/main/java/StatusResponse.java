@@ -7,5 +7,5 @@ public enum StatusResponse {
     }
 
     private String status;
-    // constructors, getters
+
 }
